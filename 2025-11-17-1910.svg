@@ -1,0 +1,80 @@
+<svg
+  width="500"
+  height="450"
+  xmlns="http://www.w3.org/2000/svg"
+  font-family="sans-serif"
+>
+  <style>
+    .axis-line {
+      stroke: #888;
+      stroke-width: 1;
+    }
+    .axis-label {
+      font-size: 13px;
+      fill: #555;
+      text-anchor: middle;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .point {
+      fill: #3682dd;
+    }
+    .point-label {
+      font-size: 12px;
+      fill: #000;
+    }
+  </style>
+
+  <!-- 标题 -->
+  <text x="250" y="35" class="title">词向量二维空间示意图（简化）</text>
+
+  <!-- 坐标轴 -->
+  <g class="axis-line">
+    <!-- Y 轴 -->
+    <line x1="250" y1="60" x2="250" y2="410" />
+    <polygon points="250,55 245,65 255,65" fill="#888" />
+    <!-- X 轴 -->
+    <line x1="40" y1="235" x2="460" y2="235" />
+    <polygon points="465,235 455,230 455,240" fill="#888" />
+  </g>
+
+  <!-- 坐标轴标签 -->
+  <text x="250" y="430" class="axis-label">平民 vs 王室</text>
+  <text
+    x="20"
+    y="238"
+    class="axis-label"
+    writing-mode="vertical-rl"
+    text-anchor="middle"
+  >
+    非人类 vs 人类
+  </text>
+
+  <!-- 数据点和标签 -->
+  <g class="point-label">
+    <!-- 公主 (0.8, 0.8) -->
+    <circle cx="410" cy="85" r="4.5" class="point" />
+    <text x="415" y="89">公主</text>
+    <!-- 王子 (0.9, 0.9) -->
+    <circle cx="430" cy="67.5" r="4.5" class="point" />
+    <text x="435" y="71.5">王子</text>
+    <!-- 女人 (0.7, 0.1) -->
+    <circle cx="390" cy="217.5" r="4.5" class="point" />
+    <text x="385" y="221.5" text-anchor="end">女人</text>
+    <!-- 男人 (0.8, 0.1) -->
+    <circle cx="410" cy="217.5" r="4.5" class="point" />
+    <text x="415" y="221.5">男人</text>
+    <!-- 仓鼠 (-0.6, -0.5) -->
+    <circle cx="130" cy="322.5" r="4.5" class="point" />
+    <text x="135" y="326.5">仓鼠</text>
+    <!-- 老鼠 (-0.7, -0.5) -->
+    <circle cx="110" cy="322.5" r="4.5" class="point" />
+    <text x="80" y="326.5">老鼠</text>
+    <!-- 苹果 (-0.9, -0.8) -->
+    <circle cx="70" cy="375" r="4.5" class="point" />
+    <text x="75" y="379">苹果</text>
+  </g>
+</svg>
