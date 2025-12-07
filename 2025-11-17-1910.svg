@@ -27,7 +27,8 @@
       fill: #000;
     }
   </style>
-
+  <!-- 新增白色背景矩形，覆盖整个画布 -->
+  <rect width="100%" height="100%" fill="white" />
   <!-- 标题 -->
   <text x="250" y="35" class="title">词向量二维空间示意图（简化）</text>
 
