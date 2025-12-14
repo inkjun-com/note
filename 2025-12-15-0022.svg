@@ -21,9 +21,7 @@
   <rect x="450" y="110" width="40" height="40" fill="black"/><text x="470" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="495" y="110" width="40" height="40" fill="black"/><text x="515" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="540" y="110" width="40" height="40" fill="black"/><text x="560" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
-  <!-- 预测目标 -->
-  <rect x="220" y="170" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
-  <text x="280" y="190" text-anchor="middle" font-size="12" fill="blue">预测目标：我</text>
+
   <!-- 步骤间距分隔线 -->
   <line x1="50" y1="220" x2="550" y2="220" stroke="#eee" stroke-width="1"/>
 
@@ -45,9 +43,7 @@
   <rect x="450" y="300" width="40" height="40" fill="black"/><text x="470" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="495" y="300" width="40" height="40" fill="black"/><text x="515" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="540" y="300" width="40" height="40" fill="black"/><text x="560" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
-  <!-- 预测目标 -->
-  <rect x="220" y="360" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
-  <text x="280" y="380" text-anchor="middle" font-size="12" fill="blue">预测目标：是</text>
+
   <!-- 步骤间距分隔线 -->
   <line x1="50" y1="410" x2="550" y2="410" stroke="#eee" stroke-width="1"/>
 
@@ -69,9 +65,7 @@
   <rect x="450" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="470" y="515" text-anchor="middle" font-size="12">是</text>
   <rect x="495" y="490" width="40" height="40" fill="black"/><text x="515" y="515" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="540" y="490" width="40" height="40" fill="black"/><text x="560" y="515" text-anchor="middle" font-size="12" fill="white">遮挡</text>
-  <!-- 预测目标 -->
-  <rect x="220" y="550" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
-  <text x="280" y="570" text-anchor="middle" font-size="12" fill="blue">预测目标：印刻</text>
+
   <!-- 步骤间距分隔线 -->
   <line x1="50" y1="600" x2="550" y2="600" stroke="#eee" stroke-width="1"/>
 
@@ -93,9 +87,6 @@
   <rect x="450" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="470" y="705" text-anchor="middle" font-size="12">是</text>
   <rect x="495" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="515" y="705" text-anchor="middle" font-size="12">印刻</text>
   <rect x="540" y="680" width="40" height="40" fill="black"/><text x="560" y="705" text-anchor="middle" font-size="12" fill="white">遮挡</text>
-  <!-- 预测目标 -->
-  <rect x="220" y="740" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
-  <text x="280" y="760" text-anchor="middle" font-size="12" fill="blue">预测目标：君</text>
   
   <!-- 配合逻辑说明 -->
   <text x="300" y="825" text-anchor="middle" font-size="12">逻辑：Token 序列提供错位素材，掩码卡片（黑色部分）随步骤递减遮挡范围，确保仅能参考前文</text>
