@@ -12,7 +12,7 @@
   <rect x="105" y="110" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="125" y="135" text-anchor="middle" font-size="12">我</text>
   <rect x="150" y="110" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="170" y="135" text-anchor="middle" font-size="12">是</text>
   <rect x="195" y="110" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="215" y="135" text-anchor="middle" font-size="12">印刻</text>
-  <rect x="240" y="110" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="215" y="135" text-anchor="middle" font-size="12">君</text>
+  <rect x="240" y="110" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="260" y="135" text-anchor="middle" font-size="12">君</text>
   <!-- 掩码卡片 -->
   <rect x="350" y="100" width="250" height="60" fill="none" stroke="black" stroke-width="2"/>
   <text x="475" y="95" text-anchor="middle" font-size="12">掩码卡片（黑色遮挡卡）</text>
@@ -20,7 +20,7 @@
   <rect x="405" y="110" width="40" height="40" fill="black"/><text x="425" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="450" y="110" width="40" height="40" fill="black"/><text x="470" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="495" y="110" width="40" height="40" fill="black"/><text x="515" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
-  <rect x="540" y="110" width="40" height="40" fill="black"/><text x="515" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
+  <rect x="540" y="110" width="40" height="40" fill="black"/><text x="560" y="135" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <!-- 预测目标 -->
   <rect x="220" y="170" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
   <text x="280" y="190" text-anchor="middle" font-size="12" fill="blue">预测目标：我</text>
@@ -36,6 +36,7 @@
   <rect x="105" y="300" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="125" y="325" text-anchor="middle" font-size="12">我</text>
   <rect x="150" y="300" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="170" y="325" text-anchor="middle" font-size="12">是</text>
   <rect x="195" y="300" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="215" y="325" text-anchor="middle" font-size="12">印刻</text>
+  <rect x="240" y="300" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="260" y="135" text-anchor="middle" font-size="12">君</text>
   <!-- 掩码卡片 -->
   <rect x="350" y="290" width="250" height="60" fill="none" stroke="black" stroke-width="2"/>
   <text x="475" y="285" text-anchor="middle" font-size="12">掩码卡片（黑色遮挡卡）</text>
@@ -43,6 +44,7 @@
   <rect x="405" y="300" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="425" y="325" text-anchor="middle" font-size="12">我</text>
   <rect x="450" y="300" width="40" height="40" fill="black"/><text x="470" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <rect x="495" y="300" width="40" height="40" fill="black"/><text x="515" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
+  <rect x="540" y="300" width="40" height="40" fill="black"/><text x="560" y="325" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <!-- 预测目标 -->
   <rect x="220" y="360" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
   <text x="280" y="380" text-anchor="middle" font-size="12" fill="blue">预测目标：是</text>
@@ -58,6 +60,7 @@
   <rect x="105" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="125" y="515" text-anchor="middle" font-size="12">我</text>
   <rect x="150" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="170" y="515" text-anchor="middle" font-size="12">是</text>
   <rect x="195" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="215" y="515" text-anchor="middle" font-size="12">印刻</text>
+  <rect x="240" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="260" y="515" text-anchor="middle" font-size="12">君</text>
   <!-- 掩码卡片 -->
   <rect x="350" y="480" width="250" height="60" fill="none" stroke="black" stroke-width="2"/>
   <text x="475" y="475" text-anchor="middle" font-size="12">掩码卡片（黑色遮挡卡）</text>
@@ -65,6 +68,7 @@
   <rect x="405" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="425" y="515" text-anchor="middle" font-size="12">我</text>
   <rect x="450" y="490" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="470" y="515" text-anchor="middle" font-size="12">是</text>
   <rect x="495" y="490" width="40" height="40" fill="black"/><text x="515" y="515" text-anchor="middle" font-size="12" fill="white">遮挡</text>
+  <rect x="540" y="490" width="40" height="40" fill="black"/><text x="560" y="515" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <!-- 预测目标 -->
   <rect x="220" y="550" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
   <text x="280" y="570" text-anchor="middle" font-size="12" fill="blue">预测目标：印刻</text>
@@ -72,7 +76,7 @@
   <line x1="50" y1="600" x2="550" y2="600" stroke="#eee" stroke-width="1"/>
 
   <!-- 4. 第4步：预测“苹果” -->
-  <text x="300" y="650" text-anchor="middle" font-size="14" font-weight="bold">第4步：预测“苹果”</text>
+  <text x="300" y="650" text-anchor="middle" font-size="14" font-weight="bold">第4步：预测“君”</text>
   <!-- 右移卡片 -->
   <rect x="50" y="670" width="250" height="60" fill="none" stroke="black" stroke-width="2"/>
   <text x="175" y="665" text-anchor="middle" font-size="12">右移卡片（答题素材卡）</text>
@@ -80,6 +84,7 @@
   <rect x="105" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="125" y="705" text-anchor="middle" font-size="12">我</text>
   <rect x="150" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="170" y="705" text-anchor="middle" font-size="12">是</text>
   <rect x="195" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="215" y="705" text-anchor="middle" font-size="12">印刻</text>
+  <rect x="240" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="260" y="705" text-anchor="middle" font-size="12">君</text>
   <!-- 掩码卡片 -->
   <rect x="350" y="670" width="250" height="60" fill="none" stroke="black" stroke-width="2"/>
   <text x="475" y="665" text-anchor="middle" font-size="12">掩码卡片（黑色遮挡卡）</text>
@@ -87,9 +92,10 @@
   <rect x="405" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="425" y="705" text-anchor="middle" font-size="12">我</text>
   <rect x="450" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="470" y="705" text-anchor="middle" font-size="12">是</text>
   <rect x="495" y="680" width="40" height="40" fill="none" stroke="gray" stroke-width="1"/><text x="515" y="705" text-anchor="middle" font-size="12">印刻</text>
+  <rect x="540" y="680" width="40" height="40" fill="black"/><text x="560" y="705" text-anchor="middle" font-size="12" fill="white">遮挡</text>
   <!-- 预测目标 -->
   <rect x="220" y="740" width="120" height="30" fill="none" stroke="blue" stroke-width="1.5"/>
-  <text x="280" y="760" text-anchor="middle" font-size="12" fill="blue">预测目标：苹果</text>
+  <text x="280" y="760" text-anchor="middle" font-size="12" fill="blue">预测目标：君</text>
   
   <!-- 配合逻辑说明 -->
   <rect x="150" y="800" width="300" height="40" fill="none" stroke="gray" stroke-width="1"/>
